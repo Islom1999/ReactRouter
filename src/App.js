@@ -16,6 +16,7 @@ export default function App(){
 
   }
   
+  
     return (
       <Router>
         <Navbars isLogin={loginVar}  loginFunc = {loginFunc} stateUser={stateUser} setStateUser={setStateUser}/>
